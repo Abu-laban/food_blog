@@ -1,23 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Food Blog</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
+        <!-- Sidebar nav (hidden by default) -->
+        <nav id="sideBar">
+            <a href="" id="btn1" class="barItem">Close Menu</a>
+            <a href="" id="btn2" class="barItem">Food</a>
+            <a href="" id="btn3" class="barItem">About</a>
+        </nav>
 
+        <!-- Top menu -->
+        <div class="topMenu">
+            <div class="whiteXlarge">
+                <div id="btn4" class="leftButton">&#9776;</div>
+                <div class="rightButton">Mail</div>
+                <div class="centerButton">My Food</div>
+            </div>
+        </div>
     </header>
     <main>
+        <!-- !PAGE CONTENT! -->
+        <div class="mainContent">
 
+            <!-- First Photo Grid-->
+            <div class="photoGrid" id="food">
+                <div class="imagesContainer">
+                    <img src="/img/sandwich.jpg" alt="Sandwich" style="width:100%">
+                    <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+                    <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="imagesContainer">
+                    <img src="/img/steak.jpg" alt="Steak" style="width:100%">
+                    <h3>Let Me Tell You About This Steak</h3>
+                    <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum
+                        lipsum.</p>
+                </div>
+                <div class="imagesContainer">
+                    <img src="/img/cherries.jpg" alt="Cherries" style="width:100%">
+                    <h3>Cherries, interrupted</h3>
+                    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    <p>What else?</p>
+                </div>
+                <div class="imagesContainer">
+                    <img src="/img/wine.jpg" alt="Pasta and Wine" style="width:100%">
+                    <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+                    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+            </div>
+
+            <!-- Second Photo Grid-->
+            <div class="photoGrid">
+                <div class="imagesContainer">
+                    <img src="/img/popsicle.jpg" alt="Popsicle" style="width:100%">
+                    <h3>All I Need Is a Popsicle</h3>
+                    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="imagesContainer">
+                    <img src="/img/salmon.jpg" alt="Salmon" style="width:100%">
+                    <h3>Salmon For Your Skin</h3>
+                    <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum
+                        lipsum.</p>
+                </div>
+                <div class="imagesContainer">
+                    <img src="/img/sandwich.jpg" alt="Sandwich" style="width:100%">
+                    <h3>The Perfect Sandwich, A Real Classic</h3>
+                    <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="imagesContainer">
+                    <img src="/img/croissant.jpg" alt="Croissant" style="width:100%">
+                    <h3>Le French</h3>
+                    <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagiContainer">
+                <div class="bar">
+                    <a href="#" class="bar-item hover-black">«</a>
+                    <a href="#" class="bar-item black">1</a>
+                    <a href="#" class="bar-item hover-black">2</a>
+                    <a href="#" class="bar-item hover-black">3</a>
+                    <a href="#" class="bar-item hover-black">4</a>
+                    <a href="#" class="bar-item hover-black">»</a>
+                </div>
+            </div>
+
+            <hr id="about">
+
+            <!-- About Section -->
+            <div class="aboutContainer">
+                <h3>About Me, The Food Man</h3><br>
+                <img src="/img/chef.jpg" alt="Me" class="aboutImage" width="800" height="533">
+                <div class="aboutCont">
+                    <h4><b>I am Who I Am!</b></h4>
+                    <h6><i>With Passion For Real, Good Food</i></h6>
+                    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an
+                        interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent
+                        tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                        congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                        condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+            <hr>
+            <!-- End page content -->
+        </div>
     </main>
-    <footer>
+    <!-- Footer -->
+    <footer class="footerContainer">
+        <div class="footerCont">
+            <h3>FOOTER</h3>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+            <p>Powered by <a href="https://github.com/Abu-laban" target="_blank">Tariq Abu-Laban</a></p>
+        </div>
 
+        <div class="footerCont">
+            <h3>BLOG POSTS</h3>
+            <ul class="ulContainer">
+                <li class="liContainer">
+                    <img src="/img/workshop.jpg" class="liImg">
+                    <span class="spanLarge">Lorem</span><br>
+                    <span>Sed mattis nunc</span>
+                </li>
+                <li class="liContainer">
+                    <img src="/img/gondol.jpg" class="liImg">
+                    <span class="spanLarge">Ipsum</span><br>
+                    <span>Praes tinci sed</span>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>POPULAR TAGS</h3>
+            <p>
+                <span class="tag black">Travel</span>
+                <span class="tag">New York</span>
+                <span class="tag">Dinner</span>
+                <span class="tag">Salmon</span>
+                <span class="tag">France</span>
+                <span class="tag">Drinks</span>
+                <span class="tag">Ideas</span>
+                <span class="tag">Flavors</span>
+                <span class="tag">Cuisine</span>
+                <span class="tag">Chicken</span>
+                <span class="tag">Dressing</span>
+                <span class="tag">Fried</span>
+                <span class="tag">Fish</span>
+                <span class="tag">Duck</span>
+            </p>
+        </div>
     </footer>
     <script src="js/app.js"></script>
 </body>
+
 </html>
